@@ -12,7 +12,7 @@ Pascaline is an interpreted statically-typed programming language with focus on 
 
 ## Installation
 
-simply clone or download the repo
+simply clone or download this repo
 
 ## Dependencies
 
