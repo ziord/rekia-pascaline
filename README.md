@@ -19,12 +19,12 @@ simply clone or download the repo
 ## Usage
 
 on the terminal or command line, run:
-''' pascaline.py -h ''' or ''' pascaline.py --help ''' to get the list of options to run the pascaline source file.
+``` pascaline.py -h ``` or ``` pascaline.py --help ``` to get the list of options to run the pascaline source file.
 
 ### Basic usage
 
-'''
+```
 pascaline.py sourcefile.psl
-'''
+```
 
 
