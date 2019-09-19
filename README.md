@@ -4,7 +4,7 @@ A subset and variant of the Pascal programming language written in Python.
 Pascaline is an interpreted statically-typed programming language with focus on simplicity, and a great language for beginners.
 
 ## Features
-- simple/complex expressions
+- simple/complex expression parsing
 - if/else if/else statements
 - loops (while, for, repeat-until and from loop)
 - functions and procedures (including nested functions/procedures)
