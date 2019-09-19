@@ -30,4 +30,4 @@ pascaline.py sourcefile.psl
 ```
 
 
-Inspired by [Ruslan](https://ruslanspivak.com/)
+Inspired by [Ruslan](https://ruslanspivak.com/lsbasi-part1/)
