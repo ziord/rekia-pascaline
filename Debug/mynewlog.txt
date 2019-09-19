@@ -1,0 +1,206 @@
+Log Information for 2019-09-19 13:36:06.756111Source File: factorial.psl
+Entering scope: factorial
+Log Information for 2019-09-19 13:36:06.757225Source File: factorial.psl
+Entering scope: factorial_
+Log Information for 2019-09-19 13:36:06.758087Source File: factorial.psl
+Entering scope: writer
+Log Information for 2019-09-19 13:36:06.759151Source File: factorial.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : writer
+Scope level    : 3
+Enclosing scope: factorial_
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+
+Log Information for 2019-09-19 13:36:06.760093Source File: factorial.psl
+Leaving scope: writer
+Log Information for 2019-09-19 13:36:06.762099Source File: factorial.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : factorial_
+Scope level    : 2
+Enclosing scope: global
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+ writer: <FunctionSymbol(name=writer, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=null)
+
+Log Information for 2019-09-19 13:36:06.763100Source File: factorial.psl
+Leaving scope: factorial_
+Log Information for 2019-09-19 13:36:06.764103Source File: factorial.psl
+Leaving scope: factorial
+Log Information for 2019-09-19 13:36:06.765106Source File: factorial.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : global
+Scope level    : 1
+Enclosing scope: Builtins
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+      h: <VarSymbol(name='h', type='integer', reference='False')>
+     nx: <VarSymbol(name='nx', type='boolean', reference='False')>
+      r: <VarSymbol(name='r', type='real', reference='False')>
+factorial_: <FunctionSymbol(name=factorial_, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=integer)
+
+Log Information for 2019-09-19 13:36:09.819357Source File: factorial.psl
+Entering scope: factorial
+Log Information for 2019-09-19 13:36:09.819357Source File: factorial.psl
+Entering scope: factorial_
+Log Information for 2019-09-19 13:36:09.820361Source File: factorial.psl
+Entering scope: writer
+Log Information for 2019-09-19 13:36:09.821362Source File: factorial.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : writer
+Scope level    : 3
+Enclosing scope: factorial_
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+
+Log Information for 2019-09-19 13:36:09.822367Source File: factorial.psl
+Leaving scope: writer
+Log Information for 2019-09-19 13:36:09.822367Source File: factorial.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : factorial_
+Scope level    : 2
+Enclosing scope: global
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+ writer: <FunctionSymbol(name=writer, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=null)
+
+Log Information for 2019-09-19 13:36:09.823369Source File: factorial.psl
+Leaving scope: factorial_
+Log Information for 2019-09-19 13:36:09.824372Source File: factorial.psl
+Leaving scope: factorial
+Log Information for 2019-09-19 13:36:09.825382Source File: factorial.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : global
+Scope level    : 1
+Enclosing scope: Builtins
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+      h: <VarSymbol(name='h', type='integer', reference='False')>
+     nx: <VarSymbol(name='nx', type='boolean', reference='False')>
+      r: <VarSymbol(name='r', type='real', reference='False')>
+factorial_: <FunctionSymbol(name=factorial_, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=integer)
+
+Log Information for 2019-09-19 13:36:14.578846Source File: factorial2.psl
+Entering scope: factorial
+Log Information for 2019-09-19 13:36:14.578846Source File: factorial2.psl
+Entering scope: factorial_
+Log Information for 2019-09-19 13:36:14.579848Source File: factorial2.psl
+Entering scope: writer
+Log Information for 2019-09-19 13:36:14.580851Source File: factorial2.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : writer
+Scope level    : 3
+Enclosing scope: factorial_
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+
+Log Information for 2019-09-19 13:36:14.581856Source File: factorial2.psl
+Leaving scope: writer
+Log Information for 2019-09-19 13:36:14.582855Source File: factorial2.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : factorial_
+Scope level    : 2
+Enclosing scope: global
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+ writer: <FunctionSymbol(name=writer, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=null)
+
+Log Information for 2019-09-19 13:36:14.584081Source File: factorial2.psl
+Leaving scope: factorial_
+Log Information for 2019-09-19 13:36:14.584863Source File: factorial2.psl
+Entering scope: dummy
+Log Information for 2019-09-19 13:36:14.584863Source File: factorial2.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : dummy
+Scope level    : 2
+Enclosing scope: global
+Scope (scoped symbol table) Contents
+------------------------------------
+    num: <VarSymbol(name='num', type='integer', reference='False')>
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+
+Log Information for 2019-09-19 13:36:14.585866Source File: factorial2.psl
+Leaving scope: dummy
+Log Information for 2019-09-19 13:36:14.586869Source File: factorial2.psl
+Entering scope: fibonacci
+Log Information for 2019-09-19 13:36:14.586869Source File: factorial2.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : fibonacci
+Scope level    : 2
+Enclosing scope: global
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+
+Log Information for 2019-09-19 13:36:14.587872Source File: factorial2.psl
+Leaving scope: fibonacci
+Log Information for 2019-09-19 13:36:14.588875Source File: factorial2.psl
+Leaving scope: factorial
+Log Information for 2019-09-19 13:36:14.588875Source File: factorial2.psl
+
+
+Scoped Symbol Table
+===================
+Scope name     : global
+Scope level    : 1
+Enclosing scope: Builtins
+Scope (scoped symbol table) Contents
+------------------------------------
+      x: <VarSymbol(name='x', type='integer', reference='False')>
+      n: <VarSymbol(name='n', type='integer', reference='False')>
+      h: <VarSymbol(name='h', type='integer', reference='False')>
+     nx: <VarSymbol(name='nx', type='boolean', reference='False')>
+      r: <VarSymbol(name='r', type='real', reference='False')>
+     st: <VarSymbol(name='st', type='string', reference='False')>
+     ch: <VarSymbol(name='ch', type='char', reference='False')>
+     a1: <VarSymbol(name='a1', type='integer', reference='False')>
+     a2: <VarSymbol(name='a2', type='integer', reference='False')>
+     a3: <VarSymbol(name='a3', type='real', reference='False')>
+factorial_: <FunctionSymbol(name=factorial_, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=integer)
+  dummy: <FunctionSymbol(name=dummy, params=[<VarSymbol(name='num', type='integer', reference='False')>], ret_type=integer)
+fibonacci: <FunctionSymbol(name=fibonacci, params=[<VarSymbol(name='x', type='integer', reference='False')>], ret_type=integer)
+

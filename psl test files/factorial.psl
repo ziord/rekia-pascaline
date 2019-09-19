@@ -1,0 +1,55 @@
+PROGRAM factorial;
+var 
+    x : integer;
+    n : integer;
+    h : integer;
+    nx : boolean;
+    r : real;
+
+func factorial_(x:integer;): integer;
+    var n : integer;
+    func writer(x : integer;);
+        begin
+            writeln(x);
+        end;
+    begin
+        n := x;
+        if x = 0 then
+            factorial_ ret 1
+        else
+            begin
+                (n--);
+                while n > 0 do
+                    begin
+                        x *:= (n--);
+                    end;
+                writer(x);
+                factorial_ ret x;
+            end;
+    end;
+begin
+    comm:<*
+    h := 5; n := 0; //x:= 0;
+    x := factorial_(factorial_(sum(2, 2)));
+    nx := sum(5, 6, 7);
+    x := (++5);
+    h := factorial_(++x);
+    for n := 1 to 10 do
+        begin
+            //skip;
+            for h := 1 to 5 do
+                x++
+        end;
+        *>
+    x := 10;
+    r := 3.4;
+    //h := factorial_(sum(2, 2.3));
+    h := factorial_(10);
+    writeln(h);
+    writeln(sum(6, 5)*2--4, (5--3));
+    for n := 1 to 100 do
+        begin
+            write(++n);
+        end;
+    //writeln(h)
+end.

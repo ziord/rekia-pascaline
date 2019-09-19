@@ -1,0 +1,32 @@
+{
+    "iconDefinitions": {
+        "_folder_dark":{
+            "iconPath": "./images/icons_3.png"
+        }
+    },
+    "file": "_file_dark",
+    "folder": "_folder_dark",
+    "folderExpanded": "_folder_open_dark", 
+    "folderNames": {
+        ".vscode": "_vscode_folder"
+    },
+    "fileExtensions": {"psl": "_psl_file", 
+    },
+    "fileNames": {
+        "win.psl": "_win_psl_file",
+    },
+    "languageIds": {
+        "psl": "_psl_file"
+    },
+    "light": {
+        "folderExpanded": "_folder_open_light",
+        "folder": "_folder_light",
+        "file": "_file_light",
+        "fileExtensions": {
+            "psl": "_psl_file_light",
+        }
+        
+    }
+
+    
+}

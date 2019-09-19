@@ -1,0 +1,34 @@
+{
+    "name": "psl",
+    "displayName": "Pascaline",
+    "description": "A subset and variant of the Pascal programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pascaline",
+            "aliases": ["Pascaline", "pascaline"],
+            "extensions": [".psl", ".psln", ".rk"],
+            "icon":{
+                "light": "./images/icons_2.png"
+            },
+            "configuration": "./language-configuration.json"
+            
+        }],
+        "grammars": [{
+            "language": "pascaline",
+            "scopeName": "source.pascaline",
+            "path": "./syntaxes/pascaline.tmLanguage"
+        }],
+        
+        "iconThemes": [{
+            "id": "jerrygozpascaline",
+            "label": "Pascaline"
+        }]
+    }
+}
