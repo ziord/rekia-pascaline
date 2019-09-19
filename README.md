@@ -8,21 +8,23 @@ A subset and variant of the Pascal programming language written in Python.
 - functions and procedures (including nested functions/procedures)
 - recursion
 
-# Installation
+## Installation
 
 simply clone or download the repo
 
-# Dependencies
+## Dependencies
 
 - Python 3.5 or later must be installed
 
-# Usage
+## Usage
 
 on the terminal or command line, run:
-'''pascaline.py -h''' or '''pascaline.py --help''' to get the list of options to run the pascaline source file.
+''' pascaline.py -h ''' or ''' pascaline.py --help ''' to get the list of options to run the pascaline source file.
 
-## Basic usage
+### Basic usage
 
-'''pascaline.py sourcefile.psl'''
+'''
+pascaline.py sourcefile.psl
+'''
 
 
