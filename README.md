@@ -1,7 +1,7 @@
-# Pascaline
+# Rekia-Pascaline
 
 A subset and variant of the Pascal programming language written in Python. 
-Pascaline is an interpreted statically-typed programming language with focus on simplicity, and a great language for beginners.
+Rekia-Pascaline is an interpreted statically-typed programming language with focus on simplicity, and a great language for beginners.
 
 ## Features
 - simple/complex expression parsing
