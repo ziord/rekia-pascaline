@@ -26,7 +26,7 @@ on the terminal or command line, run:
 ### Basic usage
 
 ```
-pascaline.py sourcefile.psl
+pascaline.py -sf=sourcefile.psl
 ```
 
 
