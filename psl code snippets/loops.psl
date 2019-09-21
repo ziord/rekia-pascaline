@@ -1,0 +1,60 @@
+$<*
+simple program to test rekia-pascaline loops
+*>
+PROGRAM factorial;
+var 
+    x : integer;
+    n : integer;
+    h : integer;
+    nx : boolean;
+    r : real;
+    st : string;
+    ch : char;
+var a1, a2 : integer;
+var a3 : real;
+
+
+begin
+    //while loop
+    x := 10;
+    while x < 50 do
+        begin
+            x++;
+        end;
+    writeln("The value of x is:", x);
+    n := sqr(x);
+    writeln("n:", n);
+
+    $<*for loop*>
+    for h := 1 to 10 do
+        begin
+            n +:= x;
+            if n >= 2600 then
+                break 
+        end;
+    writeln("The value of n is:", n);
+
+    //repeat until loop
+    repeat
+        begin
+            writeln("Rekia-Pascaline");
+            --x;
+        end
+    until x < 45;
+
+    //from loop -- loops with numbers only
+    from 1 to 5 do
+        begin
+            writeln("yayy");
+        end;
+    
+    from 30 downto 1 do  //downto can be used in for loops too, just like it's used here
+        begin
+            x **:= 2;
+            if x > 10000 then
+                stop //alias for break
+        end;
+    writeln("The value of x now is", x);
+
+end.
+

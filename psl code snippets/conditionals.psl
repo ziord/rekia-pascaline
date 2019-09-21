@@ -1,0 +1,40 @@
+$<*
+simple program to test functions
+*>
+PROGRAM factorial;
+var 
+    x : integer;
+    n : integer;
+var a1, a2 : integer;
+var a3 : real;
+
+
+begin
+    x := 40;
+    x++;
+    if x > 30 then
+        writeln(x, "is a big number")
+    if x > 35 then
+        writeln(x, "is a really big number")
+    else if x > 40 then
+        writeln(x, "is a mighty number")
+    else
+        writeln("poor", x);
+    while x >= 40 do
+        begin
+            if x > 500 then
+                begin
+                    writeln("stopping", x);
+                    stop; //could also use break
+                end
+            if x = 41 then
+                begin
+                    writeln("skipping", x);
+                    x++;
+                    skip; //could also use continue
+                end;
+            x **:= 2;
+        end;
+    writeln("x is", x);
+end.
+
