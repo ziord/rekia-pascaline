@@ -205,3 +205,10 @@ def get_func(func_name):
 def get_lst_dependent_funcs():
     return ["sum", "min", "max", "write", "writeln"]
  
+def get_import_dependent_funcs():
+    std_funcs = list(StandardFunctions)
+    imp_depd = std_funcs[std_funcs.index(StandardFunctions.COS):std_funcs.index(StandardFunctions.TAN)+1]
+    imp_depd.append(StandardFunctions.SQRT)
+    imp_depd.append(StandardFunctions.POW)
+    imp_depd = [func.value for func in imp_depd]
+    return imp_depd
