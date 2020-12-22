@@ -1,11 +1,11 @@
 """
 Utitility module for the Pascaline programming language
-containing a reader and Logger 
+containing a reader and Logger
 """
 
 import argparse
 import datetime
-import os
+import os, sys
 
 def reader(filename):
     text = str()
@@ -34,7 +34,7 @@ class Logger:
         if self._log_:
             if self._file_:
                 if self._file_name_:
-                   
+
                     with open(self._file_name_, self._mode_) as file:
                         file.write("Log Information for "+str(datetime.datetime.now()))
                         file.write("\nSource File: %(sf)s"%dict(sf=self._sf))
@@ -49,7 +49,7 @@ class Logger:
                             file.write('\n')
             else:
                 self.log_print(msg)
-    
+
     def get_file(self):
         return self._sf
 
@@ -69,9 +69,11 @@ def create_logger():
     """
     Creates a Logger object and returns it for Logging
     """
-    argp_ = argp()
-    args = argp_.parse_args()
-    logger = Logger(args.pslfile, args.log, args.file, args.filename, args.mode)
+    if len(sys.argv) == 2:
+        logger = Logger(sys.argv[1])
+    else:
+        argp_ = argp()
+        args = argp_.parse_args()
+        logger = Logger(args.pslfile, args.log, args.file, args.filename, args.mode)
     return logger
 
-    
